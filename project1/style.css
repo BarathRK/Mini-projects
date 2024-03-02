@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(to right,rgb(246, 228, 228),rgb(88, 23, 167));
+}
+.block1{
+    margin-left: 480px;
+    margin-top: 200px;
+}
+.hrs{
+    padding: 30px;
+}
+.min{
+    padding: 30px;
+}
+.sec{
+    padding: 30px;
+}
+.c1{
+    padding-top: 30px;
+}
+.block2{
+    margin-left:500px;
+    margin-top:10px;
+    
+}
+button{
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}
+button:hover{
+    background-color: red;
+}
