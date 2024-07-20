@@ -1,0 +1,88 @@
+div:first-child{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+div:last-child{
+    margin-top: 2%;
+}
+label{
+    padding-right: 20px;
+    color: black;
+    font-size: 200%;
+}
+input{
+    width:30%;
+    font-size: 100%;
+}
+form{
+    width: 80%;
+    background-color: blue;
+    padding-top:20px;
+    padding-bottom: 20px;  
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+button.Add{
+    margin-left: 200px;
+}
+
+table{
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: black;
+}
+tr{
+    font-size: 25px;
+    
+}
+
+
+th,td{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 3px solid skyblue;
+}
+button.remove{
+    margin-top: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: green;
+}
+button.remove:hover{
+    background-color: red;
+}
+
+p{
+    font-size: 25px;
+    color: red;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
