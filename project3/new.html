@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <h1>Employee details</h1><br>
+    <form >
+        
+        <label>FirstName</label><br>
+        <input type="text" autofocus id="FirstName">
+        <h2 id="FirstNameError"></h2>
+        <label>LastName</label><br>
+        <input type="text" id="LastName">
+        <h2 id="LastNameError"></h2>
+        <label>Phone</label><br>
+        <input type="text" id="Phone">
+        <h2 id="PhoneError"></h2>
+        <label>Birth-Date</label><br>
+        <input type="date" id="Date">
+        <label>Gender</label><br>
+        <select >
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        
+        
+        <label>Education</label><br>
+        <select id="Education">
+            <option value="Post Graduate">Post Graduate</option>
+            <option value="Under Graduate">Under Graduate</option>
+            <option value="12 th standard">12 th standard</option>
+            <option value="10 th standard">10 th standard</option>
+        </select><br>
+        <label>Upload Resume</label><br><br>
+        <input type="file" id="Resume">
+        <h2 id="ResumeError"></h2>
+        <div>
+        <input type="checkbox" id="Confirm">
+        <label style="font-size: 20px;">I agree terms and conditions</label>
+        </div><br>
+        <h2 id="ConfirmError"></h2>
+        <button type="button" id="submit" onclick="validationevent()">Submit</button>
+    </form>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>

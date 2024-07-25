@@ -1,0 +1,56 @@
+form{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+label{
+    font-size: 25px;
+}
+input[type='text']{
+    text-indent: 10px;
+}
+input[type='text'],select,input[type='date']{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 2px solid  black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-basis: 100%;
+}
+input[type='text']{font-size: 20px;}
+button{
+    width: 100px;
+    color: white;
+    background-color: green;
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+input[type = 'text']:hover{
+    box-shadow: 2px 2px 2px 2px rgb(5, 247, 5);
+}
+input[type = 'file']{
+    width: 80%;
+}
+h2{
+    color:red;
+    font-size: 20px;
+    display: 'none';
+}
+@media only screen and (min-width:800px){
+    input[type='text'],select,input[type='date']{
+        width: 600px;
+    }
+    form{
+        margin-left: 23%;
+    }
+    
+}
